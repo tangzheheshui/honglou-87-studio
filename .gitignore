@@ -1,0 +1,7 @@
+# 素材与生成物一律不进 git,git 只管文本
+assets/
+*.mkv
+*.mp4
+*.wav
+*.srt
+tools/__pycache__/
