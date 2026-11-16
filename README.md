@@ -9,7 +9,7 @@ topics/     选题库(outline.md 候选池 / _template.md 立项模板 / 各期�
 persons/    人物档案,一人一文件夹(profile.md / article.md / 脚本)— git 管理
 index/      素材索引(clips.csv 片段台账 / persons.csv 人物台账)— git 管理
 published/  已发布台账与复盘(待建)
-tools/      cut.py 切片脚本 — git 管理
+tools/      cut.py 切片脚本 / outline_to_html.py 大纲转浏览页 — git 管理
 assets/     封面等本地素材 — 不进 git
 ```
 

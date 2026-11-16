@@ -5,10 +5,13 @@
 ## 文件
 
 ```
-outline.md          选题大纲总表 = 全量候选池(2 大系列,约 46 期)
+outline.md          选题大纲总表 = 全量候选池(8 系列,129 期)— 唯一源
+outline.html        outline.md 的浏览页(左侧目录→点选题,右侧看点+正文),由脚本生成
 _template.md        立项书模板 → 复制为 topics/<slug>/topic.md
 <slug>/             已立项选题,一期一文件夹
 ```
+
+outline.md 改完后重跑 `python tools/outline_to_html.py` 刷新浏览页;别手改 outline.html。
 
 slug 约定:人物式选题用人物同名 slug(与 persons/ 一致,如 `liu-laolao`);主题式选题用主题拼音(如 `zhichang`、`gao-mi-zhe`)。
 
@@ -32,6 +35,7 @@ slug 约定:人物式选题用人物同名 slug(与 persons/ 一致,如 `liu-lao
 | 期 | 选题 | 状态 | 选题书 |
 |---|---|---|---|
 | 01 | 刘姥姥 | 制作(档案+文章骨架已建,论点待定稿) | [liu-laolao/topic.md](liu-laolao/topic.md) |
+| 02 | 放贷(凤姐的灰色收入) | 制作(观点文章已成稿,87版切片待核实) | [fangdai/topic.md](fangdai/topic.md) |
 
 ## 与 persons/、index/ 的分工
 
